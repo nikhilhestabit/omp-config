@@ -5,16 +5,6 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#7eb8da",
-          "powerline_symbol": "\ue0b0",
-          "properties": {
-            "display_mode": "always"
-          },
-          "style": "powerline",
-          "template": " {{ if .Venv }}({{ .Venv }}){{ end }} ",
-          "type": "python"
-        },
-        {
           "foreground": "#7eb8da",
           "style": "plain",
           "template": "\u250f[<#ffffff>\ueb99</> {{ .UserName }} from <#ffffff>\uf108</> {{ .HostName }}]",
