@@ -11,6 +11,15 @@
             "type": "session"
           },
           {
+            "foreground": "#7eb8da",
+            "properties": {
+              "style": "plain"
+            },
+            "style": "plain",
+            "template": " \uE235 {{ .Full }} {{ if .Venv }}{{ .Venv }}{{ end }}",
+            "type": "python"
+          },
+          {
             "foreground": "#be9ddf",
             "properties": {
               "style": "dallas",
@@ -93,21 +102,6 @@
             "style": "plain",
             "template": "\u2516[<#98bfad>{{ .Path }}</>]",
             "type": "path"
-          }
-        ],
-        "type": "prompt"
-      },
-      {
-        "alignment": "left",
-        "segments": [
-          {
-            "foreground": "#7eb8da",
-            "properties": {
-              "style": "full"
-            },
-            "style": "plain",
-            "template": " \uE235 {{ .Full }} {{ if .Venv }}{{ .Venv }}{{ end }}",
-            "type": "python"
           }
         ],
         "type": "prompt"
