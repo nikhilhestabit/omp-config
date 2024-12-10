@@ -12,9 +12,6 @@
           },
           {
             "foreground": "#7eb8da",
-            "properties": {
-              "style": "plain"
-            },
             "style": "plain",
             "template": " \uE235[{{ .Full }} {{ if .Venv }}{{ .Venv }}{{ end }}]",
             "type": "python"
