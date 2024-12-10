@@ -16,7 +16,7 @@
               "style": "plain"
             },
             "style": "plain",
-            "template": " \uE235 {{ .Full }} {{ if .Venv }}{{ .Venv }}{{ end }}",
+            "template": " \uE235[{{ .Full }} {{ if .Venv }}{{ .Venv }}{{ end }}]",
             "type": "python"
           },
           {
