@@ -11,6 +11,18 @@
           "type": "session"
         },
         {
+          "type": "python",
+          "style": "powerline",
+          "properties": {
+            "fetch_virtual_env": true,
+            "fetch_version": true
+          },
+          "powerline_symbol": "",
+          "foreground": "#100e23",
+          "background": "#906cff",
+          "template": "  {{ .Full }} "
+        }
+        {
           "foreground": "#be9ddf",
           "properties": {
             "style": "dallas",
