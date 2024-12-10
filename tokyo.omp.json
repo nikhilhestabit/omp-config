@@ -11,10 +11,13 @@
             "type": "session"
           },
           {
-            "foreground": "#7eb8da",
-            "style": "plain",
+            "type": "python",
+            "style": "powerline",
+            "powerline_symbol": "\uE0B0",
             "template": " \uE235[{{ .Full }} {{ if .Venv }}{{ .Venv }}{{ end }}]",
-            "type": "python"
+            "properties": {
+                "fetch_virtual_env": true
+            }
           },
           {
             "foreground": "#be9ddf",
